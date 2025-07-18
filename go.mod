@@ -1,3 +1,3 @@
-module har_server_replay
+module github.com/draysams/har-server-replay
 
 go 1.22
