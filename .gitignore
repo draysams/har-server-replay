@@ -2,4 +2,4 @@
 /vendor
 testData/sample.har
 coverage.out
-har_server_replay
+har-server-replay

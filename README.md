@@ -11,12 +11,12 @@ This tool creates a local HTTP server that serves responses from a HAR file sequ
 Make sure you have Go installed. You can download it from [https://go.dev/](https://go.dev/).
 
 ```bash
-go install ./cmd/har_server_replay
+go install ./cmd/har-server-replay
 ```
 
 ## Usage
 ``` bash
-har_server_replay --har-file <path_to_har_file> --port <port_number>
+har-server-replay --har-file <path_to_har_file> --port <port_number>
 ```
 
 
@@ -29,7 +29,7 @@ har_server_replay --har-file <path_to_har_file> --port <port_number>
 
 ## Example
 ```bash
-har_server_replay --har-file testdata/sample.har --port 8080
+har-server-replay --har-file testdata/sample.har --port 8080
 ```
 
 ## Contributing

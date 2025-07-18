@@ -1,11 +1,12 @@
 package server
 
 import (
-	"har_server_replay/internal/har"
 	"net/http/httptest"
 	"strings"
 	"sync"
 	"testing"
+
+	"github.com/draysams/har-server-replay/internal/har"
 )
 
 func makeHAR(entries []har.Entry) *har.HAR {

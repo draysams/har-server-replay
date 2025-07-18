@@ -2,12 +2,13 @@ package server
 
 import (
 	"fmt"
-	"har_server_replay/internal/har"
 	"log"
 	"net/http"
 	"net/url"
 	"strings"
 	"sync"
+
+	"github.com/draysams/har-server-replay/internal/har"
 )
 
 var isVerbose bool
