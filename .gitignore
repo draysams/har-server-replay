@@ -1,5 +1,30 @@
+
+testData/sample.har
+
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore the compiled binary in the project root ONLY.
+# This prevents conflicts with source directories of the same name.
+/har-server-replay
+/har-server-replay
 /bin
 /vendor
-testData/sample.har
-coverage.out
-har-server-replay
